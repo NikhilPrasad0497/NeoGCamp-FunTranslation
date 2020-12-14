@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color : #B45309;
+    --secondary-color: #78350F;
+    --width-break: 600px;
+}
+
+body{
+    margin: 0;
+    font-family: 'Courier Prime', monospace;
+}
+
+nav{
+    background-color: var(--primary-color);
+    text-align: center;
+}
+
+nav div{
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+main{
+    
+    padding: 1rem;
+    max-width: inherit;    
+}
+
+textarea{
+    box-sizing: inherit;
+    font-family: inherit;
+    display: block;
+    width: 100%;
+    min-height: 20vh;
+    margin-top: 2rem;
+    font-size: large;
+    color: var(--secondary-color);
+}
+
+button{
+    background-color: var(--primary-color);
+    border: none;
+    margin: 1rem 0rem;
+    padding: 1rem 2rem;
+    font-family: inherit;
+    font-size: large;
+}
+
+#txt-translated{
+    box-sizing: inherit;
+    width: 100%;
+    min-height: 10vh;
+    max-height: 20vh;
+    overflow: scroll;
+    border: 1px solid black;
+    font-family: inherit;
+    color: var(--secondary-color);
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--primary-color);
+    text-align: center;
+}
+
+footer div{
+    font-weight: bold;
+    font-size: x-large;
+    max-width: var(--width-break);
+    margin: auto;
+}
