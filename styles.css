@@ -26,9 +26,9 @@ nav div{
 }
 
 main{
-    
+    margin: auto;
     padding: 1rem;
-    max-width: inherit;    
+    max-width: var(--width-break);    
 }
 
 textarea{
